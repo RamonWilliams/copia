@@ -1,0 +1,95 @@
+.profile h2{
+    margin-left: 47%;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.image{
+   
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin-bottom: 2rem;
+}
+
+.image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   
+}
+.profile{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------------------*/
+
+.perfilFormulario{
+    margin-bottom: 4rem;
+}  
+  
+  .perfilFormulario label{
+      color: #00b5d8;
+  }
+  .perfilFormulario button{
+      border: 1px solid yelow;
+      color: #00d3fdf1;
+      background-color:rgb(112, 3, 58);
+      padding: 5px;
+      margin-top: 1rem;
+      font-weight: bolder;
+  
+  }
+  .formulario{
+      margin-bottom: 4rem;
+  }
+  @media (max-width: 992px){
+    .perfilFormulario input{
+        width: 14rem;
+    }
+    .perfilFormulario label{
+        font-size: 1.5rem;
+    }
+    .image{
+ 
+      width: 150px;
+      height: 150px;
+      border: 1px solid white;
+      margin-bottom: 2.5rem;
+  }
+}
+  
+  @media(max-width: 768px){
+      .perfilFormulario input{
+          width: 12rem;
+      }
+      .perfilFormulario label{
+          font-size: 1.3rem;
+      }
+      .image{
+   
+        width: 150px;
+        height: 150px;
+        border: 1px solid white;
+        margin-bottom: 2rem;
+    }
+  }
+  @media(max-width: 576px){
+      .perfilFormulario input{
+          width: 10rem;
+      }
+      .perfilFormulario label{
+        font-size: 1rem;
+    }
+    .image{
+   
+        width: 125px;
+        height: 125px;
+        border: 1px solid white;
+        margin-bottom: 2rem;
+    }
+  }
+  

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+h2{
+    font-size: 2rem;
+}
+p {
+    color: #00b5d8;
+}
+ a {
+  color: #00b5d8;  
+    font-weight: bold;
+    font-size: 2.3rem;
+
+}
+
+ a:hover {
+    cursor: pointer;
+   
+}
+input{
+    width: 16rem;
+    font-size: 20px;
+}
+label{
+    color: rgb(234, 237, 240);
+    font-size: 1.3rem;
+    
+}
+button{
+    background: transparent;
+    color: rgb(24, 23, 21);
+    font-size: 1.3rem;
+    background-color: wheat;    
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;    
+    font-family: monospace;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 0.3rem;
+    align-items: center;
+}
+ form label{
+     font-size: 1.5rem;
+ }
+ /*------------------------------------*/
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+
+[data-theme='dark'] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: rgb(141, 96, 96);
+}
+
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+ min-height: 100vh;
+  transition: all .5s;
+}
+
+button {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  float: right;
+  transition: all .5s;
+}
+.App button{
+  transition: all 0.3s ease-in-out;
+  border: none;
+  
+}
+.App button:hover{
+  transform: scale(1.1);
+  font-weight: bold;
+}
+@media (max-width: 992px){
+  .App button{
+    font-size: 18px;
+ }
+ input{
+   font-size: 18px;
+}
+@media(max-width: 768px){
+
+  .App button{
+     font-size: 16px;
+  }
+  input{
+    font-size: 16px;
+}
+}
+@media(max-width: 576px){
+
+  .App button{
+     font-size: 13px;
+  }
+  input{
+    font-size: 14px;
+}
+  
+}
+
+}
+

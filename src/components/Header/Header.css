@@ -1,0 +1,168 @@
+header {
+    height: 40%;
+    margin-bottom: 2rem;   
+}
+
+header h1 {
+    text-align: center;    
+    color: rgb(211, 8, 211);
+    margin: 3rem ;
+    font-size: 3rem;
+}
+nav {
+    display: flex;
+    height: 7rem;
+    align-items: center;
+    
+    width: 100%;
+}
+ul{  
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;  
+}
+.botones{
+    width: 300px;
+   
+}
+.botones li button a{
+    color: #ff37bc;
+    font-size: 1.5rem;  
+    padding: 10px;   
+}
+
+.botones li button{
+    background-color: #0e2329;;
+   
+}
+.title-image{
+    width: 100%;
+    height: 300px;   
+    display: flex;
+    justify-content: center;
+}
+.title-image img{
+    width: 750px;  
+    border-radius: 3rem;
+    box-shadow: rgba(12, 12, 12, 0.644) 15px 15px 15px ;
+    object-fit: cover;
+}
+.control{
+display: flex;
+flex-direction: column;
+
+justify-content: flex-end;
+margin-bottom: 7rem;
+margin-left: 6rem;
+}
+.control img{
+     width: 80px;
+     height: 80px;
+     border-radius: 80%;
+     margin-bottom: 1rem;
+     object-fit: cover;
+     
+    
+}
+.control button{
+    color:black;
+    font-size: 1.5rem;  
+    background-color: #ff37bc ;  
+}
+
+@media (max-width: 992px){
+    header h1{
+        font-size: 2rem;
+    }
+    .botones li button a{
+        
+        font-size: 1.5rem;     
+    }
+    ul li a{
+        font-size: 1.4rem;
+    }
+    .title-image{       
+        height: 275px;   
+        display: flex;
+        justify-content: center;
+    }   
+    .title-image img{
+        width: 600px;
+              
+    }
+    .control img{
+        width: 70px;
+        height: 70px;
+        border-radius: 80%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+}
+@media(max-width: 768px){
+
+    header h1{
+        font-size: 1.9rem;
+    }
+    .botones li button a{
+        
+        font-size: 1.3rem;     
+    }
+    ul li a{
+        font-size: 1.3rem;
+    }
+    .title-image{       
+        height: 250px;   
+        display: flex;
+        justify-content: center;
+    }   
+    .title-image img{
+        width: 550px;
+              
+    }
+    .control img{
+        width: 70px;
+        height: 70px;
+        border-radius: 80%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        
+       
+   }
+    
+  }
+  @media(max-width: 576px){
+
+    header h1{
+        font-size: 1.6rem;
+    }
+    .botones li button a{
+        
+        font-size: 1rem;     
+    }
+    ul li a{
+        font-size: 1rem;
+    }
+   
+    .title-image{       
+        height: 200px;   
+        display: flex;
+        justify-content: center;
+    }
+   
+    .title-image img{
+        width: 350px;
+       
+        
+    }
+    .control img{
+        width: 60px;
+        height: 60px;
+        border-radius: 80%;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        
+       
+   }
+    
+  }
+}

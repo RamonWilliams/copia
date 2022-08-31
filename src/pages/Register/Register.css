@@ -1,0 +1,57 @@
+
+.registro{
+    margin-bottom: 4rem;
+}
+
+.registrarse  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .registrarse label{
+      color: #00b5d8;
+  }
+  .registrarse button{
+      border: 1px solid yelow;
+      color: #00d3fdf1;
+      background-color:rgb(112, 3, 58);
+      padding: 3px;
+      margin-top: 1rem;
+      font-weight: bolder;
+  
+  }
+  .formulario{
+      margin-bottom: 4rem;
+  }
+  .registrarse button{
+      margin-top: 2rem;
+  }
+  @media (max-width: 992px){
+    .registrarse input{
+        width: 14rem;
+    }
+    .registrarse label{
+        font-size: 1.5rem;
+    }
+  }
+  
+  @media(max-width: 768px){
+      .registrarse input{
+          width: 12rem;
+      }
+      .registrarse label{
+          font-size: 1.3rem;
+      }
+  }
+  @media(max-width: 576px){
+      .registrarse input{
+          width: 10rem;
+      }
+      .registrarse label{
+        font-size: 1rem;
+    }
+  }
+  

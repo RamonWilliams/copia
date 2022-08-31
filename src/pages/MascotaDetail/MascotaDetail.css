@@ -1,0 +1,132 @@
+.contenedor{
+    height: 600px;
+    width: 600px;
+    margin:auto;
+    -webkit-perspective: 800;   
+    margin-bottom: 4rem;
+}
+.carta{
+  
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 2s;
+    
+}
+.carta:hover{
+    transform:rotateY(180deg)
+}
+.lado{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.atras{
+    transform: rotateY(180deg);
+    box-shadow: black 15px 15px 15px ;
+}
+.atras >img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.frente{
+    box-shadow: black 15px 15px 15px ;
+    background: rgb(208, 0, 231);
+    background: linear-gradient(90deg, rgb(188, 0, 209) 40%, rgb(6, 211, 252) 100%);
+}
+.frente>h2{
+    text-align: center;
+    margin: 1rem;
+    font-size: 2.2rem;
+    color: rgb(245, 168, 3);
+    
+}
+.frente>h3{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.frente>p{
+    color: black;
+    font-size: 22px;
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+.texts{
+   margin-left: 50rem;
+  
+}
+@media (max-width: 992px){
+    .contenedor{
+        height: 450px;
+        width: 450px;
+    
+    }
+    .frente>h2{
+        text-align: center;
+        margin: 1rem;
+        font-size: 2rem;
+        
+    }
+    .frente>h3{
+        text-align: center;
+        font-size: 1.8rem;
+    
+    }
+    .frente>p{
+        color: black;
+        font-size: 22px;
+        margin: 1rem;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 768px){
+    .contenedor{
+        height: 400px;
+        width: 400px;
+    
+    }
+    .frente>h2{
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.8rem;
+        
+    }
+    .frente>h3{
+        text-align: center;
+        font-size: 1.6rem;
+    
+    }
+    .frente>p{
+        color: black;
+        font-size: 22px;
+        margin: 1rem;
+        font-size: 1.4rem;
+    }
+}@media (max-width: 576px){
+    .contenedor{
+        height: 350px;
+        width: 350px;
+    
+    }
+    .frente>h2{
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.6rem;
+        
+    }
+    .frente>h3{
+        text-align: center;
+        font-size: 1.4rem;
+    
+    }
+    .frente>p{
+        color: black;
+        font-size: 22px;
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+}
